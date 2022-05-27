@@ -1,0 +1,48 @@
+p{
+    color: orange;
+}
+
+h1{
+    
+    font-style: oblique;
+    background-color: orange;
+    font-size: 50px;
+     text-align: center;
+}
+
+#count-el{
+    
+    text-decoration-color: seagreen;
+    font-size: 50px;
+    align-items: center;
+    position: relative;
+    margin-left: 50%;
+}
+#save-el{
+    margin-left: 30%;
+}
+
+button{
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    margin-left: 50%;
+}
+
+#increment-btn{
+ background-color: darkred;
+ margin-left: 45%;
+}
+
+#save-btn{
+    background-color: yellowgreen;
+    margin-left: 45%;
+}
+
