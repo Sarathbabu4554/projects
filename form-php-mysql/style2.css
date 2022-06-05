@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*
+{
+    width: 100%;
+    margin: 0%;
+    height: 100%;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 160vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: yellow;
+    }
+.container
+{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    max-height: 450px;
+    background-color:white;
+    margin-top: 100px;
+    margin-left: 42%;
+    margin-bottom: 100px;
+}
+.container .login{
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    justify-content: center;  
+    padding: 15px 15px 15px 15px;
+    margin-left: 22px;
+}
+input[type=text]{
+    width:90%;
+    height:60%;
+    background-color:whitesmoke;
+    border:none;
+    font-size:15px;
+    margin-top: 10px;
+    }
+    input[type=email]{
+        width:90%;
+        height:60%;
+        background-color:whitesmoke;
+        border:none;
+        font-size:15px;
+        margin-top: 10px;
+        }
+        input[type=Password]{
+            width:90%;
+            height:60%;
+            background-color:whitesmoke;
+            border: none;
+            font-size:15px;
+            margin-top: 10px;
+            }
+            input[type=submit]{
+                width: 50%;
+                height: 68%;
+                position:relative;
+                text-align: center;
+                align-items: center;
+                background-color: yellow;
+                margin-left: 55px;
+                font-size: 20px;
+                margin-top: 25px;
+                border: none;
+                color:black;
+                border-radius: 5px;
+            }
+            input[type=submit]:hover{
+                width: 55%;
+                height: 70%;
+                position:relative;
+                text-align: center;
+                align-items: center;
+                background-color: yellow;
+                margin-left: 50px;
+                font-size: 20px;
+                margin-top: 25px;
+                border: none;
+                color:black;
+                border-radius: 5px;
+            }
+            h1{
+                position: relative;
+                text-align:20 px;
+                margin-top: 10px;
+                margin-right: -100px;
+                color: black;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            p{
+                margin-top: 20px;
+                text-decoration: none;
+                color:black ;
+                font-size: 14px;
+            }
+            
